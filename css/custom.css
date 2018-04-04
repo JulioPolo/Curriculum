@@ -20,3 +20,16 @@ body {
 .jumbotron-name {
     text-shadow: 4px 4px 10px rgba(173, 173, 173, 0.95);
 }
+
+.highligh-text {
+    font-weight: 600;
+}
+
+.normal-text {
+    font-style: italic;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 0;
+}
