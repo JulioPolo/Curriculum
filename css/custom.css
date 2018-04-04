@@ -8,12 +8,16 @@ body {
 }
 
 .jumbotron {
-    background: url('/images/jumbobackground.jpg') no-repeat center center;
+
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    text-shadow: 2px 2px #000;
+    background-blend-mode: luminosity;
 }
 
 .jumbotron-text {
     font-size: 1.3rem;
-
     text-shadow: 4px 4px 10px rgba(173, 173, 173, 0.95);
 }
 
@@ -35,4 +39,22 @@ body {
     text-decoration: none;
 }
 
+.bg-cover {
+    background-image: url('/images/jumbobackground.jpg');
+    background-size: cover;
+    color: white;
+    background-position: center center;
+    position: relative;
+    z-index: -2;
+}
 
+.overlay {
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
