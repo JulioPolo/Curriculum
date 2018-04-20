@@ -40,7 +40,7 @@ body {
 }
 
 .bg-cover {
-    background-image: url('/images/jumbobackground.jpg');
+    background-image: url('../images/jumbobackground.jpg');
     background-size: cover;
     color: white;
     background-position: center center;
